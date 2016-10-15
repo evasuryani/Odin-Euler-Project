@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+    <head>
+      <!-- meta charec set -->
+        <meta charset="utf-8">
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+        <link rel="stylesheet" href="css/main.css">
+
+        <script type="text/javascript" src="js/euler.js"></script>
+
+        <title>Eurel</title>        
+    </head>
+  
+    <body id="body">  
+    <div id="footer" class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="footer-information">
+              <h3>Project Euler</h3>
+              <p> If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.   This function will give the sum of all multiples of 3 and 5 for a given limit. </p>
+            </div>
+          </div>
+        
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="footer-single">
+              <h6>Enter Limit </h6>
+              
+              <input type="text" class="input1" name="subscribe" id="input" value="1000">
+              <button type="submit" class="arrow" onclick="multiples(document.getElementById('input').value)"">&#8594;
+              </button>
+            </div>
+          </div>
+        
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="divresult">
+              <h6>Result</h6>
+              <h2 id="result"> </h2>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </body>
+</html>
